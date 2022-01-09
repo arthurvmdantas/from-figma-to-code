@@ -1,0 +1,57 @@
+:root {
+  --backgroundColor: #2d2e36;
+  --backgroundCard: #383a45;
+  --titleColor: #fff;
+  --textColor: #8d91a6;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--backgroundColor);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: var(--backgroundCard);
+  max-height: 620px;
+  margin: auto 1.5em auto 1.5em;
+  border-radius: 8px;
+}
+
+.card__content {
+  padding: 1.5em;
+}
+
+.card__title {
+  color: var(--titleColor);
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 1.1;
+}
+
+.card__cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card__text {
+  color: var(--textColor);
+}
+
+.card__link {
+  margin-bottom: 0;
+  margin-top: 2em;
+}
